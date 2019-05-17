@@ -48,5 +48,9 @@ class ApplicationController < Sinatra::Base
     erb :show
   end
 
+  delete '/articles/:id' do
+    
+  end
+
 
 end
