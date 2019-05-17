@@ -36,6 +36,7 @@ class ApplicationController < Sinatra::Base
   end
 
   patch '/articles/:id' do
+    binding.pry
     Article.update(params[:id])
   end
 
